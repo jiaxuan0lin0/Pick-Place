@@ -1,0 +1,8 @@
+# --- Request Part ---
+---
+
+# --- Response Part ---
+
+#服务是否执行成功
+bool success
+string message

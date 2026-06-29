@@ -1,0 +1,19 @@
+# --- Request Part ---
+#输入图片文件路径
+string input_path
+
+#输入分割提示词
+string text_prompt
+---
+
+# --- Response Part ---
+
+#服务是否执行成功
+string output_path
+bool success
+
+#结构化错误码；成功时为 OK
+string error_code
+
+#失败或成功的说明信息
+string message

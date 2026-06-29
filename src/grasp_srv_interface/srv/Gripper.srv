@@ -1,0 +1,7 @@
+# Request part
+string command  # "pick", "release"
+
+---
+
+# Response part
+bool success

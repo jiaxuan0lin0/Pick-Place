@@ -1,0 +1,54 @@
+# ROS/colcon generated directories
+/build/
+/install/
+/log/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local environment files
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Editor and OS metadata
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Runtime logs and outputs
+*.log
+**/logs/
+
+# Large model/checkpoint artifacts
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.engine
+*.bin
+*.h5
+*.msgpack
+*.safetensors
+*.tar
+*.tar.gz
+*.zip
+
+# Local model/cache directories
+/Grounded-SAM-2/checkpoints/
+/Grounded-SAM-2/gdino_checkpoints/
+/Grounded-SAM-2/bert-base-uncased/
+
+# ROS data captures
+*.bag
+*.db3
+*.mcap

@@ -1,0 +1,7 @@
+# --- Request Part ---
+string output_path
+---
+
+# --- Response Part ---
+bool success
+string message

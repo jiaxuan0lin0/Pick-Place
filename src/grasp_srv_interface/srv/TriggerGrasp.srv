@@ -1,0 +1,10 @@
+# --- 请求 ---
+string input_path    #图片输入路径
+string text_prompt    #gsam提示词
+---
+
+# --- 响应 ---
+bool success
+string error_code
+string message
+geometry_msgs/Pose[] grasp_poses

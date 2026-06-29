@@ -1,0 +1,5 @@
+{
+    "success": false,
+    "error_code": "TRIGGER_SERVICE_UNAVAILABLE",
+    "message": "TriggerGrasp 服务暂不可用，请确认 grasp_pipeline 已启动且 /grounded_sam_service、/graspnet_service、/trigger_grasp_pipeline 均可见"
+}
